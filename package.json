@@ -1,0 +1,16 @@
+{
+  "name": "typescript-oop",
+  "version": "1.0.0",
+  "description": "Learn OOP in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.9"
+  }
+}
