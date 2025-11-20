@@ -11,9 +11,17 @@ describe('Polymorphism', () => {
     class VicePresident extends Manager { }
 
     function sayHello(employee: Employee) {
-        console.log(`Hello, ${employee.name}`);
-    }
+        if (employee instanceof VicePresident) {
+            const vicePresident = employee as VicePresident;
+            console.log(`Hello Vice President, ${vicePresident.name}`);
+        } else if (employee instanceof Manager) {
+            const manager = employee as Manager;
+            console.log(`Hello Manager, ${manager.name}`);
+        } else {
+            console.log(`Hello, ${employee.name}`);
 
+        }
+    }
 
     it('should support', () => {
         let employee: Employee = new Employee("Alice");
