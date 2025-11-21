@@ -10,11 +10,3 @@ export namespace MathUtil {
         return total;
     }
 }
-
-export namespace Configuration {
-
-}
-
-export namespace StaticExample {
-
-}
