@@ -19,7 +19,6 @@ describe('Polymorphism', () => {
             console.log(`Hello Manager, ${manager.name}`);
         } else {
             console.log(`Hello, ${employee.name}`);
-
         }
     }
 
